@@ -1,0 +1,204 @@
+{
+  "trilhas": [
+    {
+      "tecnologia": "Python",
+      "nivel": "Iniciante ao Avançado",
+      "descricao": "Aprenda Python do zero até projetos reais com automação, análise de dados e desenvolvimento web.",
+      "modulos": [
+        {
+          "ordem": 1,
+          "titulo": "Fundamentos de Python",
+          "topicos": ["Sintaxe básica", "Variáveis e tipos de dados", "Operadores", "Entrada e saída de dados"]
+        },
+        {
+          "ordem": 2,
+          "titulo": "Estruturas de Controle",
+          "topicos": ["Condicionais (if/elif/else)", "Laços (for, while)", "Compreensão de listas", "Tratamento de exceções"]
+        },
+        {
+          "ordem": 3,
+          "titulo": "Funções e Módulos",
+          "topicos": ["Definição de funções", "Parâmetros e retorno", "Escopo de variáveis", "Módulos e pacotes", "Lambda e funções de alta ordem"]
+        },
+        {
+          "ordem": 4,
+          "titulo": "Estruturas de Dados",
+          "topicos": ["Listas", "Tuplas", "Dicionários", "Conjuntos (sets)", "Pilhas e filas"]
+        },
+        {
+          "ordem": 5,
+          "titulo": "Programação Orientada a Objetos",
+          "topicos": ["Classes e objetos", "Herança", "Encapsulamento", "Polimorfismo", "Métodos especiais (dunder)"]
+        },
+        {
+          "ordem": 6,
+          "titulo": "Manipulação de Arquivos e APIs",
+          "topicos": ["Leitura e escrita de arquivos", "JSON e CSV", "Requisições HTTP com requests", "Consumo de APIs REST"]
+        },
+        {
+          "ordem": 7,
+          "titulo": "Projeto Final",
+          "topicos": ["Desenvolvimento de uma aplicação completa", "Boas práticas e documentação", "Versionamento com Git"]
+        }
+      ]
+    },
+    {
+      "tecnologia": "JavaScript",
+      "nivel": "Iniciante ao Avançado",
+      "descricao": "Domine JavaScript moderno, desde a manipulação do DOM até aplicações assíncronas e Node.js.",
+      "modulos": [
+        {
+          "ordem": 1,
+          "titulo": "Fundamentos de JavaScript",
+          "topicos": ["Variáveis (var, let, const)", "Tipos de dados e coerção", "Operadores", "Funções básicas"]
+        },
+        {
+          "ordem": 2,
+          "titulo": "DOM e Eventos",
+          "topicos": ["Seleção de elementos", "Manipulação do DOM", "Eventos (click, submit, keydown)", "Formulários"]
+        },
+        {
+          "ordem": 3,
+          "titulo": "JavaScript Moderno (ES6+)",
+          "topicos": ["Arrow functions", "Destructuring", "Spread/Rest", "Template literals", "Módulos (import/export)"]
+        },
+        {
+          "ordem": 4,
+          "titulo": "Assincronicidade",
+          "topicos": ["Callbacks", "Promises", "Async/Await", "Fetch API", "Tratamento de erros assíncronos"]
+        },
+        {
+          "ordem": 5,
+          "titulo": "Node.js e NPM",
+          "topicos": ["Ambiente Node.js", "Gerenciamento de pacotes com NPM", "Módulos nativos", "Criação de servidor HTTP"]
+        },
+        {
+          "ordem": 6,
+          "titulo": "Projeto Final",
+          "topicos": ["Aplicação full-stack simples", "Integração com API pública", "Deploy básico"]
+        }
+      ]
+    },
+    {
+      "tecnologia": "Java",
+      "nivel": "Iniciante ao Avançado",
+      "descricao": "Aprenda Java com foco em POO, coleções, streams e desenvolvimento de APIs com Spring Boot.",
+      "modulos": [
+        {
+          "ordem": 1,
+          "titulo": "Fundamentos de Java",
+          "topicos": ["Sintaxe e tipos primitivos", "Operadores", "Entrada/saída com Scanner", "Compilação e execução"]
+        },
+        {
+          "ordem": 2,
+          "titulo": "Estruturas de Controle",
+          "topicos": ["if/else e switch", "Laços for, while, do-while", "Break e continue"]
+        },
+        {
+          "ordem": 3,
+          "titulo": "Programação Orientada a Objetos",
+          "topicos": ["Classes e objetos", "Herança e polimorfismo", "Interfaces e classes abstratas", "Encapsulamento (getters/setters)"]
+        },
+        {
+          "ordem": 4,
+          "titulo": "Coleções e Generics",
+          "topicos": ["List, Set, Map", "ArrayList e HashMap", "Iteradores", "Generics"]
+        },
+        {
+          "ordem": 5,
+          "titulo": "Streams e Lambdas",
+          "topicos": ["Expressões lambda", "Stream API", "Operações intermediárias e terminais", "Optional"]
+        },
+        {
+          "ordem": 6,
+          "titulo": "Spring Boot",
+          "topicos": ["Configuração de projeto", "REST Controllers", "Injeção de dependência", "JPA e banco de dados"]
+        },
+        {
+          "ordem": 7,
+          "titulo": "Projeto Final",
+          "topicos": ["API REST completa com Spring Boot", "Testes unitários com JUnit", "Documentação com Swagger"]
+        }
+      ]
+    },
+    {
+      "tecnologia": "SQL",
+      "nivel": "Iniciante ao Avançado",
+      "descricao": "Domine SQL para consultas, modelagem de banco de dados, otimização e análise de dados.",
+      "modulos": [
+        {
+          "ordem": 1,
+          "titulo": "Fundamentos de SQL",
+          "topicos": ["O que é banco de dados relacional", "SELECT, FROM, WHERE", "ORDER BY e LIMIT", "Tipos de dados"]
+        },
+        {
+          "ordem": 2,
+          "titulo": "Filtragem e Funções",
+          "topicos": ["Operadores lógicos e de comparação", "LIKE, IN, BETWEEN", "Funções de agregação (COUNT, SUM, AVG, MAX, MIN)", "GROUP BY e HAVING"]
+        },
+        {
+          "ordem": 3,
+          "titulo": "Joins e Relacionamentos",
+          "topicos": ["INNER JOIN", "LEFT JOIN e RIGHT JOIN", "FULL OUTER JOIN", "Self JOIN", "Chaves primárias e estrangeiras"]
+        },
+        {
+          "ordem": 4,
+          "titulo": "Manipulação de Dados",
+          "topicos": ["INSERT", "UPDATE", "DELETE", "Transações (BEGIN, COMMIT, ROLLBACK)"]
+        },
+        {
+          "ordem": 5,
+          "titulo": "Modelagem e Otimização",
+          "topicos": ["Normalização (1NF, 2NF, 3NF)", "Índices", "Views", "Stored Procedures e Funções"]
+        },
+        {
+          "ordem": 6,
+          "titulo": "Projeto Final",
+          "topicos": ["Modelagem de banco de dados real", "Consultas analíticas complexas", "Relatórios com SQL"]
+        }
+      ]
+    },
+    {
+      "tecnologia": "React",
+      "nivel": "Intermediário ao Avançado",
+      "descricao": "Construa interfaces modernas com React, hooks, gerenciamento de estado e integração com APIs.",
+      "modulos": [
+        {
+          "ordem": 1,
+          "titulo": "Fundamentos do React",
+          "topicos": ["O que é React e Virtual DOM", "JSX", "Componentes funcionais", "Props e state básico"]
+        },
+        {
+          "ordem": 2,
+          "titulo": "Hooks Essenciais",
+          "topicos": ["useState", "useEffect", "useRef", "Regras dos Hooks"]
+        },
+        {
+          "ordem": 3,
+          "titulo": "Componentização e Estilização",
+          "topicos": ["Composição de componentes", "Props drilling", "CSS Modules", "Styled Components"]
+        },
+        {
+          "ordem": 4,
+          "titulo": "Roteamento",
+          "topicos": ["React Router v6", "Rotas aninhadas", "Parâmetros de rota", "Navegação programática"]
+        },
+        {
+          "ordem": 5,
+          "titulo": "Gerenciamento de Estado",
+          "topicos": ["Context API", "useReducer", "Introdução ao Zustand ou Redux Toolkit"]
+        },
+        {
+          "ordem": 6,
+          "titulo": "Integração com APIs",
+          "topicos": ["Fetch e Axios", "React Query / TanStack Query", "Tratamento de loading e erros"]
+        },
+        {
+          "ordem": 7,
+          "titulo": "Projeto Final",
+          "topicos": ["Aplicação React completa", "Autenticação JWT", "Deploy na Vercel"]
+        }
+      ]
+    }
+  ]
+}

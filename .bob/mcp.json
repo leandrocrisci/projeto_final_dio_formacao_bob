@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "dio-bob": {
+      "command": "node",
+      "args": [
+        "C:/Users/Crisci/Documents/projeto_final_dio_formacao_bob/Mcp/build/index.js"
+      ]
+    }
+  }
+}

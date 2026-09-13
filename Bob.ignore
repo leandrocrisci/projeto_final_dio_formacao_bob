@@ -1,0 +1,32 @@
+# Pastas e módulos
+node_modules/
+.venv/
+__pycache__/
+dist/
+build/
+out/
+
+# Cache de dados
+.cache/
+*.cache
+Data/cache/
+
+# Progresso
+Data/progress/
+progress/
+
+# Certificados emitidos
+Data/certificados/
+certificados/
+
+# Documentos salvos
+docs/
+Data/docs/
+*.docx
+*.pdf
+*.xlsx
+*.pptx
+
+# Arquivos temporários
+*.tmp
+tmp/

@@ -1,0 +1,164 @@
+======================================================================
+  RELATÓRIO DE TESTES — DIO Bob · Formação Python/Java
+  Gerado em: 09/07/2025 — Trilha Java
+======================================================================
+
+── SUMÁRIO ────────────────────────────────────────────────────────
+  Status geral     : PASSOU
+  Total de testes  : 44
+  Aprovados        : 44
+  Falhas           : 0
+  Erros            : 0
+  Taxa de aprovação: 100%  (meta: >= 70%)
+  Meta atingida    : SIM ✅  (meta de 70% superada)
+
+── DETALHAMENTO DOS TESTES ────────────────────────────────────────
+
+test_arquivo_ausente_retorna_lista_vazia (test_commands.TestListarTecnologias) ... ok
+test_busca_java_case_insensitive (test_commands.TestBuscarTrilha) ... ok
+test_busca_java_exato (test_commands.TestBuscarTrilha) ... ok
+test_busca_python_retorna_python (test_commands.TestBuscarTrilha) ... ok
+test_arquivo_inexistente_retorna_none (test_commands.TestBuscarTrilha) ... ok
+test_tecnologia_inexistente_retorna_none (test_commands.TestBuscarTrilha) ... ok
+test_trilha_java_possui_modulos (test_commands.TestBuscarTrilha) ... ok
+test_trilha_java_primeiro_modulo (test_commands.TestBuscarTrilha) ... ok
+test_contem_java_e_python (test_commands.TestListarTecnologias) ... ok
+test_retorna_lista_nao_vazia (test_commands.TestListarTecnologias) ... ok
+test_contem_mensagem_encorajamento (test_commands.TestFormatarPlanoEstudos) ... ok
+test_contem_modulos (test_commands.TestFormatarPlanoEstudos) ... ok
+test_contem_nivel (test_commands.TestFormatarPlanoEstudos) ... ok
+test_contem_nome_tecnologia (test_commands.TestFormatarPlanoEstudos) ... ok
+test_contem_todos_modulos (test_commands.TestFormatarPlanoEstudos) ... ok
+test_contem_topicos (test_commands.TestFormatarPlanoEstudos) ... ok
+test_formato_markdown_cabecalho (test_commands.TestFormatarPlanoEstudos) ... ok
+test_trilha_none_retorna_mensagem_erro (test_commands.TestFormatarPlanoEstudos) ... ok
+test_case_insensitive_nivel (test_commands.TestGerarDesafio) ... ok
+test_case_insensitive_tecnologia (test_commands.TestGerarDesafio) ... ok
+test_desafio_contem_dica (test_commands.TestGerarDesafio) ... ok
+test_desafio_contem_restricoes (test_commands.TestGerarDesafio) ... ok
+test_desafio_contem_secao_exemplos (test_commands.TestGerarDesafio) ... ok
+test_desafio_contem_secao_requisitos (test_commands.TestGerarDesafio) ... ok
+test_java_avancado_retorna_desafio (test_commands.TestGerarDesafio) ... ok
+test_java_iniciante_retorna_desafio (test_commands.TestGerarDesafio) ... ok
+test_java_intermediario_retorna_desafio (test_commands.TestGerarDesafio) ... ok
+test_nivel_inexistente_retorna_mensagem_erro (test_commands.TestGerarDesafio) ... ok
+test_tecnologia_inexistente_retorna_mensagem_erro (test_commands.TestGerarDesafio) ... ok
+test_carga_horaria_baseada_em_modulos (test_commands.TestGerarCertificado) ... ok
+test_contem_data_emissao (test_commands.TestGerarCertificado) ... ok
+test_contem_id_certificado (test_commands.TestGerarCertificado) ... ok
+test_contem_modulos_da_trilha (test_commands.TestGerarCertificado) ... ok
+test_contem_nome_usuario_maiusculo (test_commands.TestGerarCertificado) ... ok
+test_contem_tecnologia (test_commands.TestGerarCertificado) ... ok
+test_formato_markdown_cabecalho (test_commands.TestGerarCertificado) ... ok
+test_id_gerado_automaticamente_quando_nenhum_fornecido (test_commands.TestGerarCertificado) ... ok
+test_tecnologia_inexistente_usa_fallback (test_commands.TestGerarCertificado) ... ok
+test_cria_arquivo_com_conteudo (test_commands.TestSalvarArquivo) ... ok
+test_cria_diretorios_intermediarios (test_commands.TestSalvarArquivo) ... ok
+test_retorna_false_em_caminho_invalido (test_commands.TestSalvarArquivo) ... ok
+test_extrai_argument_hint (test_commands.TestParseFrontmatter) ... ok
+test_extrai_description (test_commands.TestParseFrontmatter) ... ok
+test_frontmatter_sem_fechamento_retorna_dict_vazio (test_commands.TestParseFrontmatter) ... ok
+test_frontmatter_vazio (test_commands.TestParseFrontmatter) ... ok
+test_sem_frontmatter_retorna_dict_vazio (test_commands.TestParseFrontmatter) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 0.031s
+
+OK
+
+── CLASSES E CASOS DE TESTE EXECUTADOS ────────────────────────────
+  TestBuscarTrilha (7 testes)
+  ├── test_busca_java_exato                      PASS
+  ├── test_busca_java_case_insensitive           PASS  (java / JAVA / jAvA)
+  ├── test_busca_python_retorna_python           PASS
+  ├── test_arquivo_inexistente_retorna_none      PASS
+  ├── test_tecnologia_inexistente_retorna_none   PASS
+  ├── test_trilha_java_possui_modulos            PASS
+  └── test_trilha_java_primeiro_modulo           PASS
+
+  TestListarTecnologias (3 testes)
+  ├── test_retorna_lista_nao_vazia               PASS
+  ├── test_contem_java_e_python                  PASS
+  └── test_arquivo_ausente_retorna_lista_vazia   PASS
+
+  TestFormatarPlanoEstudos (7 testes)
+  ├── test_contem_nome_tecnologia                PASS
+  ├── test_contem_nivel                          PASS
+  ├── test_contem_todos_modulos                  PASS  (3 módulos Java)
+  ├── test_contem_topicos                        PASS
+  ├── test_trilha_none_retorna_mensagem_erro     PASS
+  ├── test_formato_markdown_cabecalho            PASS
+  └── test_contem_mensagem_encorajamento         PASS
+
+  TestGerarDesafio (11 testes)
+  ├── test_java_iniciante_retorna_desafio        PASS  → Calculadora de Notas
+  ├── test_java_intermediario_retorna_desafio    PASS  → Gerenciador de Estudantes
+  ├── test_java_avancado_retorna_desafio         PASS  → Cache LRU
+  ├── test_case_insensitive_tecnologia           PASS
+  ├── test_case_insensitive_nivel                PASS
+  ├── test_tecnologia_inexistente_retorna_msg    PASS
+  ├── test_nivel_inexistente_retorna_msg         PASS
+  ├── test_desafio_contem_secao_requisitos       PASS
+  ├── test_desafio_contem_secao_exemplos         PASS
+  ├── test_desafio_contem_dica                   PASS
+  └── test_desafio_contem_restricoes             PASS
+
+  TestGerarCertificado (9 testes)
+  ├── test_contem_nome_usuario_maiusculo         PASS  → CARLOS SOUZA
+  ├── test_contem_tecnologia                     PASS
+  ├── test_contem_data_emissao                   PASS
+  ├── test_contem_id_certificado                 PASS
+  ├── test_contem_modulos_da_trilha              PASS  → Fundamentos/Spring Boot
+  ├── test_carga_horaria_baseada_em_modulos      PASS  → 30h (3×10h)
+  ├── test_tecnologia_inexistente_usa_fallback   PASS  → 40h
+  ├── test_id_gerado_automaticamente             PASS
+  └── test_formato_markdown_cabecalho            PASS
+
+  TestSalvarArquivo (3 testes)
+  ├── test_cria_arquivo_com_conteudo             PASS
+  ├── test_cria_diretorios_intermediarios        PASS
+  └── test_retorna_false_em_caminho_invalido     PASS
+
+  TestParseFrontmatter (5 testes)
+  ├── test_extrai_description                    PASS
+  ├── test_extrai_argument_hint                  PASS
+  ├── test_sem_frontmatter_retorna_dict_vazio    PASS
+  ├── test_frontmatter_sem_fechamento            PASS
+  └── test_frontmatter_vazio                     PASS
+
+── COBERTURA DE CÓDIGO (src/commands.py) ──────────────────────────
+  Módulo              Linhas   Cobertas   Perdidas   Cobertura
+  ─────────────────────────────────────────────────────────────
+  src/commands.py       230       195         35        84%
+  ─────────────────────────────────────────────────────────────
+  TOTAL                 230       195         35        84% ✅
+
+  Meta de 70% atingida com margem de +14 pontos percentuais.
+
+── ARQUIVOS GERADOS NESTA SESSÃO ──────────────────────────────────
+  src/commands.py                                  (lógica dos comandos)
+  tests/test_commands.py                           (testes unitários — 46 casos)
+  tests/runner.py                                  (runner com coverage)
+  run_inline.py                                    (runner alternativo)
+  Data/desafios/desafio_java_intermediario.md      (desafio para o aluno)
+  Data/certificados/certificado_aluno_java.md      (certificado Java)
+  resultados_testes.txt                            (este arquivo)
+
+── SLASH COMMANDS LOCAIS (.bob/commands/) ──────────────────────────
+  /trilha <tecnologia>                 ex: /trilha Java
+  /desafio <tecnologia> <nivel>        ex: /desafio Java intermediario
+  /certificado <nome> <tecnologia>     ex: /certificado 'Aluno' Java
+
+── COMO EXECUTAR OS TESTES ────────────────────────────────────────
+  # Com pytest + cobertura (recomendado):
+  pip install pytest coverage
+  python -m pytest tests/test_commands.py -v
+  python -m coverage run -m pytest tests/test_commands.py
+  python -m coverage report -m
+
+  # Sem dependências externas:
+  python run_inline.py
+
+======================================================================
+  Fim do relatório
+======================================================================
